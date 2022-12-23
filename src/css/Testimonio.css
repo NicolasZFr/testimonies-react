@@ -38,3 +38,49 @@
     font-size: 2rem;
     text-align: justify;
 }
+
+@media screen and (max-width: 1000px) {
+    .container {
+        height: 368px;
+    }
+
+    .contenedor__testimonio {
+        font-size: 1.8rem;
+    }
+    
+    .testimonio--nombre {
+        font-size: 1.8rem;
+    }
+    
+    .testimonio--cargo {
+        font-size: 1.8rem;
+    }
+    
+    .testimonio--texto {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        height: auto;
+        width: 400px;
+        margin: 10px 10px 30px;
+        flex-direction: column;
+    }
+
+    .contenedor__img {
+        width: 100%;
+    }
+
+    .testimonio--cargo {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 88%;
+        margin: 0 0 30px;
+    }
+}
